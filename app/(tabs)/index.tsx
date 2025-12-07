@@ -17,10 +17,13 @@ export default function HomeScreen() {
           style={styles.reactLogo}
         />
       }>
-      <ThemedView style={styles.titleContainer}>
+        <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Hi Me!</ThemedText>
-        <ThemedText type="title">It's Rhea D. Hoyohoy!</ThemedText>
         <HelloWave />
+      </ThemedView>
+      <ThemedView style={styles.titleContainer}>
+        <ThemedText type="title">It's Rhea D. Hoyohoy!</ThemedText>
+        
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
